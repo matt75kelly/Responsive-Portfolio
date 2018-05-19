@@ -1,0 +1,233 @@
+body {
+    background-image: url("../Images/nice_snow_@2X.png");
+    background-color: #ffffff;
+    color: #777777;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+header {
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
+}
+form {
+    font-size: 1em;
+    color: #777777;
+    width: 100%;
+}
+h3 {
+    font-size: 1.2em;
+    color: #777777;
+    font-weight: 450;
+}
+.copyright {
+    clear: both;
+    width: 100%;
+    height: 4vh;
+    background-color: #666666;  
+    font-size: 0.875em;
+    padding: 2vh;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    border-top: 8px solid #4aaaa5;
+    border-bottom: 4px solid #666666;
+}
+.wrapper-top {
+    background-image: url(https://www.beautycolorcode.com/ffffff-2880x1800.png);
+    width: 100%;
+    height: 12vh;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+    margin: 0 auto;
+}
+.head {
+    margin: 0 auto;
+    width: 75%;
+    height: 100%;
+}
+.name {
+    width: 35%;
+    height: 100%;
+    background-color: #4aaaa5;
+    float: left;
+}
+.title {
+    color: #ffffff;
+    font-size: 1.875em;
+    font-weight: bold;
+    padding: 2vh 0 2vh 0;
+}
+.dropdown {
+    width: 65%;
+    height: 50%;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    background-color: #cccccc;
+    border: -2px solid #ffffff;
+    float: right;
+}
+.nav-button {
+    width: 33.3%;
+    height: 100%;
+    background-color: #ffffff;
+    border-style: hidden;
+    color: #777777;
+    font-size: 1.125em;
+    position: relative;
+    right: -3px;
+    margin-left: -3px;
+    
+}
+.main-content {
+    clear: both;
+    background-image: url("../Images/nice_snow_@2X.png");
+    background-color: #cccccc;
+    width: 100%;
+    height: fit-content;
+    box-sizing: content-box;
+    padding: 40px 0;
+}
+.content-about {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px 40px 0px 40px;
+    box-sizing: border-box;
+}
+.content-header {
+    width: 100%;
+    height: 24px;
+    padding: 20px 0;
+    border-bottom: 2px solid #cccccc;
+    text-align: left;
+}
+.content-title {
+    font-weight: bolder;
+    font-size: 1.6em;
+    color: #4aaaa5;
+}
+.content {
+    color: #777777;
+    padding: 20px 0px 20px 0px;
+    text-align: left;
+    line-height: 32px;
+    font-size: 1.2em;
+    height: max-content;
+    overflow: auto;
+}
+#selfie {
+    float: left;
+    padding: 0 20px 20px 0;
+    width: 250px;
+    height: 250px;
+}
+#field_name {
+    margin: 0 auto;
+    width: 96%;
+    border: 1px solid #cccccc;
+}
+#field_email {
+    margin: 0 auto;
+    width: 96%;
+    border: 1px solid #cccccc;
+}
+#field_message {
+    margin: 0 auto;
+    width: 96%;
+    height: 140px;
+    border: 1px solid #cccccc;
+    line-height: 24px;
+    padding: 5px 5px 5px 5px;
+}
+#field_submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100px;
+    height: 40px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    border-style: hidden;
+    font-size: 1.25em;
+    margin: 20px 0 20px 0px;
+}
+.project {
+    box-sizing: border-box;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    background-color: #cccccc;
+    color: black;
+    margin: 20px 20px 20px 20px;
+    padding-top: 40px;
+    float: left;
+}
+.banner {
+    clear: both;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    position: relative;
+    top: 80px;
+}
+@media screen and (min-width: 641px) {
+.head {
+    width: 70%; 
+}
+.title {
+    padding: 2.5vh 0 2vh 0;
+}
+.copyright {
+    height: 3.5vh;
+    padding: 1vh;
+}
+.content-about {
+    width: 70%;
+}
+}
+@media screen and (min-width: 761px) {
+.head {
+    width: 65%;
+}
+.wrapper-top {
+    height: 6vh;
+}
+.name {
+    width: 45%;
+}
+.title {
+    padding: 1vh 0 .75vh 0;
+}
+.dropdown {
+    width: 45%;
+    margin: 1.5vh 0 1.5em 0;
+}
+.copyright {
+    height: 3vh;
+    padding: .75vh;
+}
+.content-about {
+    width: 65%;
+}
+}
+@media screen and (min-width: 961px) {
+.head {
+    width: 60%;
+}
+.title {
+    padding: 1.5vh 0 1.25vh 0;
+}
+.dropdown {
+    width: 38%;
+}
+.content-about {
+    width: 60%;
+}
+}
